@@ -1,0 +1,654 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.back_header {
+    background: url(backss.png);
+    background-position: cover/center;
+    background-repeat: no-repeat;
+    height: 1080px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 52px;
+}
+
+.nav_items {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+    gap: 45px;
+}
+
+.photo {
+    position: relative;
+    right: 180px;
+}
+
+.nav_items a {
+    font-size: 24px;
+    color: white;
+    transition: 0.7s;
+}
+
+.nav_items a:hover {
+    color: orangered;
+}
+
+.alohida {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 340px;
+}
+
+.alohida h1 {
+    font-size: 200px;
+    font-family: "Raleway", sans-serif;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 330px;
+}
+
+.dastlabki h1 {
+    text-align: center;
+    padding-top: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    color: #01353E;
+}
+
+.bobo_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 220px;
+    margin-top: 120px;
+}
+
+.text_mother {
+    padding-left: 30px;
+}
+
+.one {
+    color: gray;
+    font-size: 14px;
+    line-height: 18px;
+
+}
+
+.two {
+    color: gray;
+    font-size: 14px;
+    line-height: 18px;
+    padding-top: 30px;
+}
+
+.three {
+    color: gray;
+    font-size: 14px;
+    line-height: 18px;
+    padding-top: 30px;
+}
+
+.four {
+    color: gray;
+    font-size: 14px;
+    line-height: 18px;
+    padding-top: 40px;
+}
+
+.five {
+    color: gray;
+    font-size: 14px;
+    line-height: 18px;
+    padding-bottom: 150px;
+}
+
+.six {
+    color: gray;
+    font-size: 14px;
+    line-height: 18px;
+    position: relative;
+    bottom: 100px;
+}
+
+.seven {
+    color: gray;
+    font-size: 14px;
+    line-height: 18px;
+    position: relative;
+    bottom: 30px;
+}
+
+.eight {
+    padding-top: 10px;
+    color: gray;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.kattta {
+    background-color: #F8F8F8;
+    height: 953px;
+    margin-top: 130px;
+}
+
+.title {
+    font-size: 48px;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+.bolla {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 86px;
+    margin-top: 200px;
+}
+
+.son {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 60px;
+}
+
+.boxes {
+    padding-top: 20px;
+    font-size: 14px;
+    color: gray;
+}
+
+.kattakon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 254px;
+    margin-top: 130px;
+}
+
+.qodir {
+    font-size: 14px;
+    color: gray;
+    padding-bottom: 65px;
+}
+
+.umar {
+    font-size: 14px;
+    color: gray;
+}
+
+.malumotlar {
+    display: flex;
+    align-items: center;
+    height: 1050px;
+}
+
+.surfer {
+    margin-left: 290px;
+    margin-bottom: 190px;
+}
+
+.wealth {
+    margin-left: 10px;
+}
+
+.wealth h1 {
+    font-size: 48px;
+    line-height: 18px;
+    margin-left: 70px;
+    margin-bottom: 190px;
+    position: relative;
+    top: 40px;
+}
+
+.ahmoq {
+    line-height: 18px;
+    font-size: 14px;
+    color: gray;
+    padding-bottom: 300px;
+    padding-left: 70px;
+
+}
+
+.jini {
+    line-height: 18px;
+    font-size: 14px;
+    color: gray;
+    position: relative;
+    left: 70px;
+    bottom: 250px;
+
+}
+
+.jinni {
+    line-height: 18px;
+    font-size: 14px;
+    color: gray;
+    position: relative;
+    left: 70px;
+    bottom: 200px;
+}
+
+.galery {
+    height: 1260px;
+}
+
+.galery h1 {
+    text-align: center;
+    font-size: 48px;
+    line-height: 18px;
+}
+
+.main_items {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 200px;
+    margin-left: 270px;
+}
+
+
+.main_items a {
+    transition: 0.7s;
+    font-size: 24px;
+    line-height: 18px;
+    color: black;
+    cursor: pointer;
+}
+
+.main_items a:hover {
+    color: #00B2A0;
+}
+
+.pictures_div {
+    margin-top: 40px;
+    margin-left: 270px;
+}
+
+.features {
+    margin-top: 40px;
+    margin-left: 270px;
+}
+
+.such {
+    width: 350px;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.7S;
+    cursor: pointer;
+    font-size: 24px;
+    color: black;
+    border: none;
+    border: 0.7px solid #C4C4C4;
+    margin-left: 670px;
+    margin-top: 60px;
+}
+
+.such:hover {
+    color: white;
+    background-color: red;
+}
+
+.escobar {
+    height: 200px;
+    background-color: #F8F8F8;
+}
+
+.escobar h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    padding-top: 80px;
+}
+
+.escobar p {
+    font-size: 14px;
+    color: gray;
+    padding-left: 1050px;
+}
+
+.video_div {
+    height: 1000px;
+    background-color: white;
+}
+
+.backvideo {
+    background: url(dengiz.png);
+    background-position: cover/center;
+    background-repeat: no-repeat;
+    height: 600px;
+    margin-left: 300px;
+    margin-top: 200px;
+}
+
+.suzish {
+    padding-left: 550px;
+    padding-top: 250px;
+}
+
+.numbers_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    height: 296px;
+    position: relative;
+    bottom: 250px;
+}
+
+.numeral h1 {
+    font-size: 64px;
+    color: #01353E;
+
+}
+
+.numeral p {
+    color: gray;
+    font-size: 14px;
+    padding-left: 17px;
+}
+
+.ong {
+    position: relative;
+    right: 25px;
+}
+
+.image_blog img {
+    height: 1200px;
+}
+
+.surfingchilar {
+    height: 987px;
+}
+
+.club {
+    font-size: 48px;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+.ustozlar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 105px;
+    margin-top: 200px;
+}
+
+.qoravoy h1 {
+    color: #01353E;
+    font-size: 23px;
+    padding-left: 140px;
+    padding-top: 30px;
+}
+
+.qoravoy p {
+    color: gray;
+    font-size: 11px;
+    padding-left: 120px;
+    padding-top: 10px;
+}
+
+
+
+.qizaloq h1 {
+    color: #01353E;
+    font-size: 23px;
+    padding-left: 140px;
+    padding-top: 30px;
+}
+
+.qizaloq p {
+    color: gray;
+    font-size: 11px;
+    padding-left: 140px;
+    padding-top: 10px;
+}
+
+.qizaloq_2 h1 {
+    color: #01353E;
+    font-size: 23px;
+    padding-left: 140px;
+    padding-top: 30px;
+}
+
+.qizaloq_2 p {
+    color: gray;
+    font-size: 11px;
+    padding-left: 140px;
+    padding-top: 10px;
+}
+
+.vippro {
+    height: 1240px;
+    background-color: #F8F8F8;
+}
+
+.vip {
+    text-align: center;
+    color: #01353E;
+    font-size: 48px;
+    position: relative;
+    top: 130px;
+}
+
+.pockets {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-top: 300px;
+}
+
+.paket {
+    background-color: white;
+    width: 360px;
+    height: 577px;
+}
+
+.standart {
+    margin-top: 60px;
+    font-size: 36px;
+    color: #01353E;
+    text-align: center;
+}
+
+.brrr {
+    padding-top: 40px;
+    padding-left: 43px;
+}
+
+.narxi {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 36px;
+    color: #01353E;
+}
+
+.paket_2 {
+    background-color: white;
+    width: 360px;
+    height: 577px;
+}
+
+.brrrr {
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+.hammasi {
+    margin-top: 60px;
+    font-size: 36px;
+    color: #01353E;
+    text-align: center;
+}
+
+.narxii {
+    text-align: center;
+    padding-top: 70px;
+    font-size: 36px;
+    color: #01353E;
+}
+
+.paket_3 {
+    background-color: white;
+    width: 360px;
+    height: 577px;
+}
+
+.oyna_div {
+    background-color: white;
+    height: 1040px;
+}
+
+.oyna {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register {
+    height: 1180px;
+    background-color: white;
+}
+
+.login {
+    text-align: center;
+    font-size: 48px;
+}
+
+.marshal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 550px;
+    margin-top: 200px;
+}
+
+.login_1 input {
+    width: 400px;
+    height: 38px;
+    font-size: 20px;
+    padding-left: 10px;
+
+}
+
+.login_2 input {
+    margin-top: 30px;
+    width: 400px;
+    height: 38px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.login_1 input::placeholder {
+    color: #00B2A0;
+}
+
+.login_2 input::placeholder {
+    color: #00B2A0;
+}
+
+.login_text {
+    position: relative;
+    top: 40px;
+    color: #00B2A0;
+    font-size: 16px;
+}
+
+.sendingg {
+    width: 200px;
+    height: 48px;
+    border: none;
+    border: 1px solid #C4C4C4;
+    background-color: white;
+    margin-top: 90px;
+
+}
+
+.sendingg a {
+    color: black;
+}
+
+.onthe {
+    width: 520px;
+    height: 340px;
+    background-color: #F8F8F8;
+}
+
+.savol {
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 24px;
+
+}
+
+.wtf {
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: 24px;
+}
+
+.messii {
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: 24px;
+}
+.uli{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 190px;
+}
+
+.uli a{
+    font-size: 24px;
+    color: black;
+    transition: 0.9s;
+}
+.uli a:hover{
+    color: #00B2A0;
+}
+footer{
+    height: 200px;
+    background-color: #00B2A0;
+     position: relative;
+    bottom: 90px;
+}
+.image_nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.lewa{
+      margin-top: 67px;
+}
